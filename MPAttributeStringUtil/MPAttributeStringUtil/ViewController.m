@@ -30,22 +30,35 @@
     // Do any additional setup after loading the view, typically from a nib.
     NSMutableParagraphStyle *style = [[NSMutableParagraphStyle alloc] init];
     style.firstLineHeadIndent = 10.0;
-    _labelTop.attributedText = [[NSMutableAttributedString alloc] initWithString:@"梁富华是傻逼。\n没错，你说的没错。" font:font13 fontColor:blueColor lineSpacing:5.0 textAlignment:NSTextAlignmentLeft otherStyleAttribute:style];
+    NSMutableAttributedString *topMString = [[NSMutableAttributedString alloc] initWithString:@"通过初始化方法生成一段字体大小，颜色的AttributeSting"
+                                                                                         font:font13
+                                                                                    fontColor:blueColor
+                                                                                  lineSpacing:5.0
+                                                                                textAlignment:NSTextAlignmentLeft
+                                                                          otherStyleAttribute:style];
     _labelTop.numberOfLines = 0;
+    _labelTop.attributedText = topMString;
+    
+    _labelMiddle.numberOfLines = 0;
+    _labelMiddle.attributedText = [topMString appendString:@"通过appendString方法组合AttributeSting"
+                                                      font:[UIFont systemFontOfSize:11.0f]
+                                                 fontColor:darkGrayColor];
     
     MPAttributeStringModel *part1 = [[MPAttributeStringModel alloc] init];
-    part1.contentString = @"";
+    part1.contentString = @"第一段文字";
     part1.color = purpleColor;
     
     MPAttributeStringModel *part2 = [[MPAttributeStringModel alloc] init];
-    part2.contentString = @"\n猜猜我是谁。";
+    part2.contentString = @"\n第二段文字：";
     part2.color = darkGrayColor;
     part2.font = [UIFont systemFontOfSize:17.0];
     
-    MPAttributeStringModel *part3 = [[MPAttributeStringModel alloc] initWithString:@"我才不猜。2016年3月22日 - modifier参数将imageView放置在父视图尺寸的某个百分比的位置上，如下所示: 2016-01-24-002.png. 寓教于乐。这里有三种方式来创建该布局，第一是使用IB, 第二是用代码添加约束，第三是使用stack view. 使用Interface Builder创建约束. 对每个image view 我们需要添加两个约束。使用文档大纲工具栏或者直接在 ..." font:[UIFont systemFontOfSize:10.0] color:greenColor];
+    MPAttributeStringModel *part3 = [[MPAttributeStringModel alloc] initWithString:@"第三段描述文字 ..."
+                                                                              font:[UIFont systemFontOfSize:10.0]
+                                                                             color:greenColor];
     
-    _labelMiddle.attributedText = [[NSMutableAttributedString alloc] initWithAttributeModels:@[part1,part2,part3]];
-    _labelMiddle.numberOfLines = 0;
+    _labelBottom.numberOfLines = 0;
+    _labelBottom.attributedText = [[NSMutableAttributedString alloc] initWithAttributeModels:@[part1,part2,part3]];
     
 }
 
