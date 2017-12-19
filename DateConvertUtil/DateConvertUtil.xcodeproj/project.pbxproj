@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C15B0401FE3B5B800E4A5E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C15B03F1FE3B5B800E4A5E8 /* AppDelegate.m */; };
+		3C15B0431FE3B5B800E4A5E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C15B0421FE3B5B800E4A5E8 /* ViewController.m */; };
+		3C15B0461FE3B5B800E4A5E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C15B0441FE3B5B800E4A5E8 /* Main.storyboard */; };
+		3C15B0481FE3B5B800E4A5E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C15B0471FE3B5B800E4A5E8 /* Assets.xcassets */; };
+		3C15B04B1FE3B5B800E4A5E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C15B0491FE3B5B800E4A5E8 /* LaunchScreen.storyboard */; };
+		3C15B04E1FE3B5B800E4A5E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C15B04D1FE3B5B800E4A5E8 /* main.m */; };
+		3C15B0581FE3B5B800E4A5E8 /* DateConvertUtilTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C15B0571FE3B5B800E4A5E8 /* DateConvertUtilTests.m */; };
+		3C15B0631FE3B5B800E4A5E8 /* DateConvertUtilUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C15B0621FE3B5B800E4A5E8 /* DateConvertUtilUITests.m */; };
+		3C15B0731FE3BEA100E4A5E8 /* DateConvertUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C15B0721FE3BEA100E4A5E8 /* DateConvertUtil.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C15B0541FE3B5B800E4A5E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C15B0331FE3B5B800E4A5E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C15B03A1FE3B5B800E4A5E8;
+			remoteInfo = DateConvertUtil;
+		};
+		3C15B05F1FE3B5B800E4A5E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C15B0331FE3B5B800E4A5E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C15B03A1FE3B5B800E4A5E8;
+			remoteInfo = DateConvertUtil;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C15B03B1FE3B5B800E4A5E8 /* DateConvertUtil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DateConvertUtil.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C15B03E1FE3B5B800E4A5E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C15B03F1FE3B5B800E4A5E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C15B0411FE3B5B800E4A5E8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3C15B0421FE3B5B800E4A5E8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3C15B0451FE3B5B800E4A5E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C15B0471FE3B5B800E4A5E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C15B04A1FE3B5B800E4A5E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C15B04C1FE3B5B800E4A5E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C15B04D1FE3B5B800E4A5E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C15B0531FE3B5B800E4A5E8 /* DateConvertUtilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DateConvertUtilTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C15B0571FE3B5B800E4A5E8 /* DateConvertUtilTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DateConvertUtilTests.m; sourceTree = "<group>"; };
+		3C15B0591FE3B5B800E4A5E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C15B05E1FE3B5B800E4A5E8 /* DateConvertUtilUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DateConvertUtilUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C15B0621FE3B5B800E4A5E8 /* DateConvertUtilUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DateConvertUtilUITests.m; sourceTree = "<group>"; };
+		3C15B0641FE3B5B800E4A5E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C15B0711FE3BEA100E4A5E8 /* DateConvertUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateConvertUtil.h; sourceTree = "<group>"; };
+		3C15B0721FE3BEA100E4A5E8 /* DateConvertUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateConvertUtil.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C15B0381FE3B5B800E4A5E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C15B0501FE3B5B800E4A5E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C15B05B1FE3B5B800E4A5E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C15B0321FE3B5B800E4A5E8 = {
+			isa = PBXGroup;
+			children = (
+				3C15B03D1FE3B5B800E4A5E8 /* DateConvertUtil */,
+				3C15B0561FE3B5B800E4A5E8 /* DateConvertUtilTests */,
+				3C15B0611FE3B5B800E4A5E8 /* DateConvertUtilUITests */,
+				3C15B03C1FE3B5B800E4A5E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C15B03C1FE3B5B800E4A5E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C15B03B1FE3B5B800E4A5E8 /* DateConvertUtil.app */,
+				3C15B0531FE3B5B800E4A5E8 /* DateConvertUtilTests.xctest */,
+				3C15B05E1FE3B5B800E4A5E8 /* DateConvertUtilUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C15B03D1FE3B5B800E4A5E8 /* DateConvertUtil */ = {
+			isa = PBXGroup;
+			children = (
+				3C15B0701FE3BEA100E4A5E8 /* DateConvertUtil */,
+				3C15B03E1FE3B5B800E4A5E8 /* AppDelegate.h */,
+				3C15B03F1FE3B5B800E4A5E8 /* AppDelegate.m */,
+				3C15B0411FE3B5B800E4A5E8 /* ViewController.h */,
+				3C15B0421FE3B5B800E4A5E8 /* ViewController.m */,
+				3C15B0441FE3B5B800E4A5E8 /* Main.storyboard */,
+				3C15B0471FE3B5B800E4A5E8 /* Assets.xcassets */,
+				3C15B0491FE3B5B800E4A5E8 /* LaunchScreen.storyboard */,
+				3C15B04C1FE3B5B800E4A5E8 /* Info.plist */,
+				3C15B04D1FE3B5B800E4A5E8 /* main.m */,
+			);
+			path = DateConvertUtil;
+			sourceTree = "<group>";
+		};
+		3C15B0561FE3B5B800E4A5E8 /* DateConvertUtilTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C15B0571FE3B5B800E4A5E8 /* DateConvertUtilTests.m */,
+				3C15B0591FE3B5B800E4A5E8 /* Info.plist */,
+			);
+			path = DateConvertUtilTests;
+			sourceTree = "<group>";
+		};
+		3C15B0611FE3B5B800E4A5E8 /* DateConvertUtilUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C15B0621FE3B5B800E4A5E8 /* DateConvertUtilUITests.m */,
+				3C15B0641FE3B5B800E4A5E8 /* Info.plist */,
+			);
+			path = DateConvertUtilUITests;
+			sourceTree = "<group>";
+		};
+		3C15B0701FE3BEA100E4A5E8 /* DateConvertUtil */ = {
+			isa = PBXGroup;
+			children = (
+				3C15B0711FE3BEA100E4A5E8 /* DateConvertUtil.h */,
+				3C15B0721FE3BEA100E4A5E8 /* DateConvertUtil.m */,
+			);
+			path = DateConvertUtil;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C15B03A1FE3B5B800E4A5E8 /* DateConvertUtil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C15B0671FE3B5B800E4A5E8 /* Build configuration list for PBXNativeTarget "DateConvertUtil" */;
+			buildPhases = (
+				3C15B0371FE3B5B800E4A5E8 /* Sources */,
+				3C15B0381FE3B5B800E4A5E8 /* Frameworks */,
+				3C15B0391FE3B5B800E4A5E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DateConvertUtil;
+			productName = DateConvertUtil;
+			productReference = 3C15B03B1FE3B5B800E4A5E8 /* DateConvertUtil.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C15B0521FE3B5B800E4A5E8 /* DateConvertUtilTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C15B06A1FE3B5B800E4A5E8 /* Build configuration list for PBXNativeTarget "DateConvertUtilTests" */;
+			buildPhases = (
+				3C15B04F1FE3B5B800E4A5E8 /* Sources */,
+				3C15B0501FE3B5B800E4A5E8 /* Frameworks */,
+				3C15B0511FE3B5B800E4A5E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C15B0551FE3B5B800E4A5E8 /* PBXTargetDependency */,
+			);
+			name = DateConvertUtilTests;
+			productName = DateConvertUtilTests;
+			productReference = 3C15B0531FE3B5B800E4A5E8 /* DateConvertUtilTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C15B05D1FE3B5B800E4A5E8 /* DateConvertUtilUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C15B06D1FE3B5B800E4A5E8 /* Build configuration list for PBXNativeTarget "DateConvertUtilUITests" */;
+			buildPhases = (
+				3C15B05A1FE3B5B800E4A5E8 /* Sources */,
+				3C15B05B1FE3B5B800E4A5E8 /* Frameworks */,
+				3C15B05C1FE3B5B800E4A5E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C15B0601FE3B5B800E4A5E8 /* PBXTargetDependency */,
+			);
+			name = DateConvertUtilUITests;
+			productName = DateConvertUtilUITests;
+			productReference = 3C15B05E1FE3B5B800E4A5E8 /* DateConvertUtilUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C15B0331FE3B5B800E4A5E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Jin;
+				TargetAttributes = {
+					3C15B03A1FE3B5B800E4A5E8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					3C15B0521FE3B5B800E4A5E8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3C15B03A1FE3B5B800E4A5E8;
+					};
+					3C15B05D1FE3B5B800E4A5E8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3C15B03A1FE3B5B800E4A5E8;
+					};
+				};
+			};
+			buildConfigurationList = 3C15B0361FE3B5B800E4A5E8 /* Build configuration list for PBXProject "DateConvertUtil" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C15B0321FE3B5B800E4A5E8;
+			productRefGroup = 3C15B03C1FE3B5B800E4A5E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C15B03A1FE3B5B800E4A5E8 /* DateConvertUtil */,
+				3C15B0521FE3B5B800E4A5E8 /* DateConvertUtilTests */,
+				3C15B05D1FE3B5B800E4A5E8 /* DateConvertUtilUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C15B0391FE3B5B800E4A5E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C15B04B1FE3B5B800E4A5E8 /* LaunchScreen.storyboard in Resources */,
+				3C15B0481FE3B5B800E4A5E8 /* Assets.xcassets in Resources */,
+				3C15B0461FE3B5B800E4A5E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C15B0511FE3B5B800E4A5E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C15B05C1FE3B5B800E4A5E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C15B0371FE3B5B800E4A5E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C15B0431FE3B5B800E4A5E8 /* ViewController.m in Sources */,
+				3C15B0731FE3BEA100E4A5E8 /* DateConvertUtil.m in Sources */,
+				3C15B04E1FE3B5B800E4A5E8 /* main.m in Sources */,
+				3C15B0401FE3B5B800E4A5E8 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C15B04F1FE3B5B800E4A5E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C15B0581FE3B5B800E4A5E8 /* DateConvertUtilTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C15B05A1FE3B5B800E4A5E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C15B0631FE3B5B800E4A5E8 /* DateConvertUtilUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C15B0551FE3B5B800E4A5E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C15B03A1FE3B5B800E4A5E8 /* DateConvertUtil */;
+			targetProxy = 3C15B0541FE3B5B800E4A5E8 /* PBXContainerItemProxy */;
+		};
+		3C15B0601FE3B5B800E4A5E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C15B03A1FE3B5B800E4A5E8 /* DateConvertUtil */;
+			targetProxy = 3C15B05F1FE3B5B800E4A5E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C15B0441FE3B5B800E4A5E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C15B0451FE3B5B800E4A5E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C15B0491FE3B5B800E4A5E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C15B04A1FE3B5B800E4A5E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C15B0651FE3B5B800E4A5E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3C15B0661FE3B5B800E4A5E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C15B0681FE3B5B800E4A5E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M554DEF8KT;
+				INFOPLIST_FILE = DateConvertUtil/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lcap.DateConvertUtil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C15B0691FE3B5B800E4A5E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M554DEF8KT;
+				INFOPLIST_FILE = DateConvertUtil/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lcap.DateConvertUtil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3C15B06B1FE3B5B800E4A5E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M554DEF8KT;
+				INFOPLIST_FILE = DateConvertUtilTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lcap.DateConvertUtilTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DateConvertUtil.app/DateConvertUtil";
+			};
+			name = Debug;
+		};
+		3C15B06C1FE3B5B800E4A5E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M554DEF8KT;
+				INFOPLIST_FILE = DateConvertUtilTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lcap.DateConvertUtilTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DateConvertUtil.app/DateConvertUtil";
+			};
+			name = Release;
+		};
+		3C15B06E1FE3B5B800E4A5E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M554DEF8KT;
+				INFOPLIST_FILE = DateConvertUtilUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lcap.DateConvertUtilUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DateConvertUtil;
+			};
+			name = Debug;
+		};
+		3C15B06F1FE3B5B800E4A5E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M554DEF8KT;
+				INFOPLIST_FILE = DateConvertUtilUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lcap.DateConvertUtilUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DateConvertUtil;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C15B0361FE3B5B800E4A5E8 /* Build configuration list for PBXProject "DateConvertUtil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C15B0651FE3B5B800E4A5E8 /* Debug */,
+				3C15B0661FE3B5B800E4A5E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C15B0671FE3B5B800E4A5E8 /* Build configuration list for PBXNativeTarget "DateConvertUtil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C15B0681FE3B5B800E4A5E8 /* Debug */,
+				3C15B0691FE3B5B800E4A5E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C15B06A1FE3B5B800E4A5E8 /* Build configuration list for PBXNativeTarget "DateConvertUtilTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C15B06B1FE3B5B800E4A5E8 /* Debug */,
+				3C15B06C1FE3B5B800E4A5E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C15B06D1FE3B5B800E4A5E8 /* Build configuration list for PBXNativeTarget "DateConvertUtilUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C15B06E1FE3B5B800E4A5E8 /* Debug */,
+				3C15B06F1FE3B5B800E4A5E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C15B0331FE3B5B800E4A5E8 /* Project object */;
+}
